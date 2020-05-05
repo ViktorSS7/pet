@@ -1,0 +1,16 @@
+{
+    "name": "dend/crm-api",
+    "description": "diplom",
+    "type": "project",
+    "authors": [
+        {
+            "name": "adskay2010",
+            "email": "adskay2010@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "smarty/smarty": "~3.1@dev",
+      "ext-mysqli": "*"
+    }
+}

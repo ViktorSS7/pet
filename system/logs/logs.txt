@@ -1,0 +1,190 @@
+2020/05/05 14:47:52 [error] 7578#7578: *474 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 31
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:28
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb1526090dd35_51054983() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123
+PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:" while reading upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 14:47:52 [error] 7578#7578: *474 FastCGI sent in stderr: "PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:28
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb1526090dd35_51054983() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123" while reading upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 14:48:16 [error] 7578#7578: *474 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:28
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123" while reading upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 14:49:16 [error] 7578#7578: *474 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:27
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123" while reading response header from upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 14:51:56 [error] 7578#7578: *505 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:28
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123" while reading response header from upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 14:57:07 [error] 7578#7578: *508 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:28
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123" while reading response header from upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 14:58:14 [error] 7578#7578: *508 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:29
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123" while reading response header from upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 14:58:18 [error] 7578#7578: *512 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:29
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123" while reading response header from upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 14:58:34 [error] 7578#7578: *514 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:29
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123" while reading response header from upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 14:59:14 [error] 7578#7578: *512 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:28
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123" while reading response header from upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 15:00:29 [error] 7578#7578: *512 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:28
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123" while reading response header from upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 15:00:29 [error] 7578#7578: *512 FastCGI sent in stderr: "PHP message: PHP Notice:  A non well formed numeric value encountered in /var/www/ForGitHub/ForSoul/API/Controller/test.php on line 29
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP Notice:  A non well formed numeric value encountered in /var/www/ForGitHub/ForSoul/API/Controller/test.php on line 29
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21" while reading upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 15:03:42 [error] 7578#7578: *520 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'password' in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 37
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:28
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123
+PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:28
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sys
+2020/05/05 15:03:49 [error] 7578#7578: *520 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined offset: -1000 in /var/www/ForGitHub/ForSoul/API/Controller/test.php on line 26
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:28
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123
+PHP message: PHP Notice:  A non well formed numeric value encountered in /var/www/ForGitHub/ForSoul/API/Controller/test.php on line 29
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Route
+2020/05/05 15:05:05 [error] 7578#7578: *525 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: password in /var/www/ForGitHub/ForSoul/system/compile_template/ad620c2246cc8e2d3e9c9301d66e03e3afff81f5_0.file.test.tpl.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP   4. Smarty->display() /var/www/ForGitHub/ForSoul/API/Controller/test.php:28
+PHP message: PHP   5. Smarty->_execute() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:134
+PHP message: PHP   6. Smarty_Internal_Template->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   7. Smarty_Template_Compiled->render() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP   8. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP   9. content_5eb152808bbe33_17409728() /var/www/ForGitHub/ForSoul/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123" while reading response header from upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
+2020/05/05 15:05:05 [error] 7578#7578: *525 FastCGI sent in stderr: "PHP message: PHP Notice:  A non well formed numeric value encountered in /var/www/ForGitHub/ForSoul/API/Controller/test.php on line 29
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21
+PHP message: PHP Notice:  A non well formed numeric value encountered in /var/www/ForGitHub/ForSoul/API/Controller/test.php on line 29
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ForGitHub/ForSoul/index.php:0
+PHP message: PHP   2. Router->run() /var/www/ForGitHub/ForSoul/index.php:9
+PHP message: PHP   3. API\Controller\test->test() /var/www/ForGitHub/ForSoul/system/Router.php:21" while reading upstream, client: 127.0.0.1, server: forsoul.loc, request: "GET /test/test HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "forsoul.loc"
