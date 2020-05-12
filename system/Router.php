@@ -4,8 +4,21 @@
 class Router
 {
     function run(){
+        $queryStringParams = false;
         $url = trim($_SERVER['REQUEST_URI'], '/');
         $route = explode('/', $url);
+        $params = explode('?', $route[array_key_last($route)]);
+        $route[array_key_last($route)] = $params[0];
+
+        if (count($params) > 1) {
+            $queryStringParams = true;
+            $paramsLine = $params[1];
+            $params = [];
+            foreach (explode('&', $paramsLine) as $paramLine) {
+                $param = explode('=', $paramLine);
+                $params[$param[0]] = $param[1];
+            }
+        }
         $url = trim($route[0], '/');
         if(array_key_exists(1, $route)){
             $function = trim($route[1], '/');
@@ -18,7 +31,11 @@ class Router
                 $url = 'API\Controller\\'.$url;
                 $controller = new $url;
                 if(method_exists($controller, $function)) {
-                    $controller->$function();
+                    if ($queryStringParams) {
+                        $controller->$function($params);
+                    } else {
+                        $controller->$function();
+                    }
                 } else {
                     $this->error();
                 }
@@ -26,7 +43,11 @@ class Router
                 require_once DIR_CONTROLLER . $url . '.php';
                 $url = 'API\Controller\\'.$url;
                 $controller = new $url;
-                $controller->default();
+                if ($queryStringParams) {
+                    $controller->default($params);
+                } else {
+                    $controller->default();
+                }
             }
         }
         else {
